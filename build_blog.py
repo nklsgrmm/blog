@@ -13,7 +13,7 @@ fig = px.bar(df, x="Category", y="Values", title="Sample Category Distribution")
 
 # 3. Build the Blog with ar.Blocks
 report = ar.Blocks(
-    "# Arakawa Interactive Blog and Hallo",
+    "# Arakawa Interactive Blog and Hallo 2",
     "This is a sample blog generated with Arakawa and Plotly.",
     ar.Plot(fig),
     ar.DataTable(df)
